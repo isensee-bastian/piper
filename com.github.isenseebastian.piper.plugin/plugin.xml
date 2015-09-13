@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="Piper Category"
+            id="com.github.isenseebastian.piper.plugin.commands.category">
+      </category>
+      <command
+            name="Piper Command"
+            categoryId="com.github.isenseebastian.piper.plugin.commands.category"
+            id="com.github.isenseebastian.piper.plugin.commands.tabularFormatCommand">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            commandId="com.github.isenseebastian.piper.plugin.commands.tabularFormatCommand"
+            class="com.github.isenseebastian.piper.plugin.TabularFormatHandler">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="com.github.isenseebastian.piper.plugin.commands.tabularFormatCommand"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="Ctrl+Shift+5"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>
+   </extension>
+
+</plugin>

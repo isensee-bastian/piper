@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.github.isenseebastian.piper</groupId>
+		<artifactId>com.github.isenseebastian.piper.parent</artifactId>
+		<version>0.1.0-SNAPSHOT</version>
+		<relativePath>../com.github.isenseebastian.piper.parent</relativePath>
+	</parent>
+
+	<artifactId>com.github.isenseebastian.piper.aggregator</artifactId>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>../com.github.isenseebastian.piper.feature</module>
+		<module>../com.github.isenseebastian.piper.plugin</module>
+		<module>../com.github.isenseebastian.piper.plugin.test</module>
+	</modules>
+</project>
