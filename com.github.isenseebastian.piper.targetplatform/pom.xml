@@ -9,14 +9,7 @@
 		<relativePath>../com.github.isenseebastian.piper.parent</relativePath>
 	</parent>
 
-	<artifactId>com.github.isenseebastian.piper.aggregator</artifactId>
-	<packaging>pom</packaging>
-
-	<modules>
-		<module>../com.github.isenseebastian.piper.feature</module>
-		<module>../com.github.isenseebastian.piper.plugin</module>
-		<module>../com.github.isenseebastian.piper.plugin.test</module>
-		<module>../com.github.isenseebastian.piper.p2updatesite</module>
-		<module>../com.github.isenseebastian.piper.targetplatform</module>
-	</modules>
+	<artifactId>com.github.isenseebastian.piper.targetplatform</artifactId>
+	<packaging>eclipse-target-definition</packaging>
+	
 </project>

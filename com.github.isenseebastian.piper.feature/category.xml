@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <bundle id="com.github.isenseebastian.piper.plugin" version="0.1.0.qualifier">
-      <category name="piper-tabular-formatting"/>
-   </bundle>
-   <category-def name="piper-tabular-formatting" label="Piper Tabular Formatting"/>
-</site>

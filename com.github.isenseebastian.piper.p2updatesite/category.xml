@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.github.isenseebastian.piper.feature_0.1.0.qualifier.jar" id="com.github.isenseebastian.piper.feature" version="0.1.0.qualifier">
+      <category name="piper.plugin.category"/>
+   </feature>
+   <category-def name="piper.plugin.category" label="Piper Plugin"/>
+</site>

@@ -1,0 +1,15 @@
+target "Default Target" with source requirements
+
+location "http://download.eclipse.org/releases/mars/" eclipse-mars {
+	org.eclipse.ui
+	org.eclipse.core.runtime
+	org.eclipse.ui.editors
+	org.eclipse.jface.text
+	com.google.guava
+	org.junit
+	org.eclipse.platform.feature.group
+	org.eclipse.rcp.feature.group
+	org.eclipse.jdt.feature.group
+	org.eclipse.equinox.p2.discovery.feature.feature.group
+	org.eclipse.equinox.executable.feature.group
+}
